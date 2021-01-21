@@ -1,0 +1,86 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color:#000;
+}
+
+.category{
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+}
+
+.category > li{
+
+  color: rgba(0,0,0,0.87);
+  line-height: 24px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.category > li:nth-child(4){
+  margin-right: 15px;
+}
+
+.logo{
+  margin-bottom: -40px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logo > img{
+  height: 300px;
+  width: 300px;
+}
+
+.search{
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  width:600px;
+  height: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.search > form {
+  text-align: center;
+
+}
+.search > form > input{
+  font-size: 16px;
+  border: none;
+  margin-top: 5px;
+  width: 500px;
+  height: 40px;
+}
+
+.footer{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  margin: 45px auto;
+  padding-right: 40px;
+}
+
+.footer > li > div{
+  flex: 1;
+  height: 20px;
+  width: 150px;
+  background-color: rgba(241,243,244,0.3);
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer > li:not(:last-child) > div{
+  margin-right: 10px;
+  margin-left: 120px;
+}
